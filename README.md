@@ -24,3 +24,9 @@ Basic WS - REst + WEb
 Normally you would add @EnableWebMvc for a Spring MVC app, but Spring Boot adds it automatically when it sees spring-webmvc on the classpath. This flags the application as a web application and activates key behaviors such as setting up a DispatcherServlet.
 
     @ComponentScan tells Spring to look for other components, configurations, and services in the hello package, allowing it to find the controllers.
+    
+# H2 Console
+
+http://localhost:8080/h2-console/
+
+Configurations available at the appliciations.properties
